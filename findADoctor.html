@@ -1,0 +1,101 @@
+<html>
+
+<head>
+
+	<title>Data Innovate</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- link the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css" />
+
+	<!-- link the webpage's JavaScript file -->
+	<script src="/script.js" defer>
+
+	</script>
+
+</head>
+
+<body>
+
+	<nav>
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+      <li>
+				<a href="about.html">About</a>
+			</li>
+      <li>
+				<a href="medical.html">Medical</a>
+			</li>
+			<li>
+				<a class="active" href="findADoctor.html">Find A Doctor</a>
+			</li>
+      <li>
+				<a href="Login.html">Login/Signup</a>
+			</li>
+		</ul>
+	</nav>
+  <script SameSite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+  <script>
+    var myLandbot = new Landbot.Livechat({
+      configUrl: 'https://chats.landbot.io/v3/H-1057369-Z5O5YH9NF6ZHTEHH/index.json',
+    });
+  </script>
+
+	<h1>Find a doctor!</h1>
+
+  
+	 <div class="spread">
+     <h3> Need to doctor? </h3>
+   <div class="scriptQues">
+      <div class="scriptItem">
+        <label for="yourName">Your Full Name: </label>
+        <input type="text" id="name" >
+      </div>
+
+      <div class="scriptItem">
+        <label for="yourEmail">Email: </label>
+        <input type="text" id="email" >
+      </div>
+
+      <div class="scriptItem">
+        <label for="yourPhone">Phone Number: </label>
+        <input type="text" id="phone" >
+      </div>
+
+      <div class="scriptItem">
+        <label for="yourMeeting">Do you want to meet with a doctor in-person or virtually? </label>
+        <input type="text" id="meeting" >
+      </div>
+
+      <div class="scriptItem">
+        <label for="virtual">If meeting virtually, when are your availabilities to meet? </label>
+        <input type="text" id="virtual" >
+      </div>
+
+      <div class="scriptItem">
+        <label for="yourReason">Reason for seeing a doctor: </label>
+        <br/>
+        <input type="text" id="reason" >
+      </div>
+
+      <button id="scriptBtn">Let's find a doctor!</button>
+
+    </div>
+    </div>
+
+    <br/>
+
+		<p id="scriptReturned"> 
+		</p>
+    <p> Here are the benefits of meeting with a healthcare professional... </p>
+    <br/>
+		
+      
+    </main>
+    
+  </body>
+</html>

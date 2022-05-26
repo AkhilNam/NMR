@@ -1,0 +1,174 @@
+/* STYLE SECTIONING TAGS */
+body {
+  text-align: center;
+  color: #2A2D34;
+  background-color: white;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+header {
+  background-color: #5C946E;
+  color:black;
+}
+
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+/* STYLE TEXT */
+p {
+  font-size: 1.2em;
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h1 {
+  font-size: 2.8em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#intro {
+  text-align: center;
+  color: #2A2D34;
+}
+
+a {
+  color: #fcbf49;
+}
+
+.container {
+  position: relative;
+}
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  left: 20px;
+  font-size: 6em;
+  color: #5C946E;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* STYLE IMAGES */
+.pic {
+  max-width: 100%;
+  border-radius: 10%;
+  max-height: 150px;
+  border:3px solid white;
+  margin-bottom: 2em;
+}
+
+.pic2 {
+  max-width: 100%;
+  border-radius: 10%;
+  max-height: 250px;
+  border: 3px solid white;
+  margin-bottom: 2em;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #A0DDE6;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #30C5FF;
+}
+
+li a.active {
+  background-color: #30C5FF;
+}
+
+/* STYLE BUTTONS */
+.genFact {
+  background: #A0DDE6;
+  border-radius: 5px;
+  border-style: double;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 1.2em;
+  color: black;
+}
+
+.f1 {
+  text-align: center;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: white;
+
+}
+
+#factBtn {
+  font-size: 1.5em;
+  border-style: double;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flexItem{
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.spread {
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+}
+/* ADD MORE! */
+
+/*Login Page*/
+
+.internal{
+    
+    
+  text-align: center
+
+}
+
