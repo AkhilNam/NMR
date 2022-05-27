@@ -12,15 +12,15 @@ function generateScript() {
   var location = document.getElementById("location").value;
   var learning = document.getElementById("learning").value;
 
-  displayScript.innerHTML = "Okay we are looking for a doctor. We will notify you soon";
+  displayScript.innerHTML = "Placeholder";
 }
 
 
 var factList = [
-  "People of all age groups, regions and countries are affected by NCDs.",
-  "77% of all NCD deaths are in low- and middle-income countries",
-  "Cardiovascular diseases account for most NCD deaths",
-  "Lack of physical activity makes a person more prone to die to a NCD"
+  "Placeholder",
+  "Placeholder 2",
+  "Placeholder 3",
+  "Placeholder 4"
 ];
 
 var fact = document.getElementById("fact");
