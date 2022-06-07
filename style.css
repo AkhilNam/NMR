@@ -81,10 +81,7 @@ ul {
   margin: 0;
   background-color: #A0DDE6;
   overflow: hidden;
-  position: fixed;
-  top:0;
-  width: 100%;
-  padding: 0;
+  padding: 1em;
 }
 
 li {
@@ -92,7 +89,6 @@ li {
 }
 
 li a {
-  display: block;
   text-decoration: none;
   color: black;
   font-size: 1.3em;
