@@ -78,7 +78,6 @@ a {
 /* STYLE NAV BAR */
 ul {
   list-style-type: none;
-  margin: 0;
   background-color: #A0DDE6;
   overflow: hidden;
   padding: 1em;
@@ -93,7 +92,6 @@ li a {
   color: black;
   font-size: 1.3em;
   padding: 1em;
-  text-align: center;
 }
 
 li a:hover {
