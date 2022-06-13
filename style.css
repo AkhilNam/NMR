@@ -62,7 +62,19 @@ a {
 .text-block2 {
   position:absolute;
   text-align:left;
-  top: 450px;
+  top: 520px;
+  right: 1000px;
+  left: 10px;
+  margin: 10px;
+  font-size: 25px;
+  color: #0663a1;
+  padding-top: 0%;
+}
+
+.text-block22 {
+  position:absolute;
+  text-align:left;
+  top: 575px;
   right: 1000px;
   left: 10px;
   margin: 10px;
@@ -74,7 +86,7 @@ a {
 .text-block3 {
   position:absolute;
   text-align:left;
-  top: 710px;
+  top: 950px;
   right: 1000px;
   left: 10px;
   margin: 10px;
@@ -95,7 +107,7 @@ a {
 .green2{
   position:absolute;
   text-align:left;
-  top: 400px;
+  top: 460px;
   right: 1000px;
   left: 10px;
   font-size: 35px;
@@ -105,12 +117,21 @@ a {
 .green3{
   position:absolute;
   text-align:left;
-  top: 700px;
+  top: 900px;
   right: 1000px;
   left: 10px;
   font-size: 35px;
   color: #337408;
 
+}
+.green33{
+  position:absolute;
+  text-align:left;
+  top: 880px;
+  right: 1000px;
+  left: 10px;
+  font-size: 35px;
+  color: #337408;
 }
 .green4{
   position:absolute;
