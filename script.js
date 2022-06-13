@@ -12,15 +12,15 @@ function generateScript() {
   var location = document.getElementById("location").value;
   var learning = document.getElementById("learning").value;
 
-  displayScript.innerHTML = "Placeholder";
+  displayScript.innerHTML = "NMR Facts displayed here...";
 }
 
 
 var factList = [
-  "Placeholder",
-  "Placeholder 2",
-  "Placeholder 3",
-  "Placeholder 4"
+  "NMR is a technique used to analyze a molecule's structure.",
+  "NMR Spectrometers are non destructive and less sample preparation is required, giving it an edge over electron microscopes and X-ray diffraction instruments",
+  "Solid and Liquid samples can be used in NMR",
+  "When two waves of equal frequencies collide, it causes resonance. This phenomenon is a major part of the NMR process"
 ];
 
 var fact = document.getElementById("fact");

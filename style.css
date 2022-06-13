@@ -70,6 +70,18 @@ a {
   color: #0663a1;
   padding-top: 0%;
 }
+
+.text-block3 {
+  position:absolute;
+  text-align:left;
+  top: 600px;
+  right: 1000px;
+  left: 10px;
+  margin: 10px;
+  font-size: 25px;
+  color: #0663a1;
+  padding-top: 0%;
+}
 .green{
   position:absolute;
   text-align:left;
@@ -90,6 +102,37 @@ a {
   color: #337408;
 
 }
+.green3{
+  position:absolute;
+  text-align:left;
+  top: 520px;
+  right: 1000px;
+  left: 10px;
+  font-size: 35px;
+  color: #337408;
+
+}
+.green4{
+  position:absolute;
+  text-align:left;
+  top: 520px;
+  right: 1000px;
+  left: 10px;
+  font-size: 25px;
+  color: #1f7904;
+
+}
+
+.green5{
+  position:absolute;
+  text-align:left;
+  top: 600px;
+  right: 1000px;
+  left: 10px;
+  font-size: 25px;
+  color: #1f7904;
+
+}
 
 /* STYLE IMAGES */
 .pic {
@@ -106,6 +149,16 @@ a {
   max-height: 250px;
   border: 3px solid white;
   margin-bottom: 2em;
+}
+.pic3 {
+  max-width: 50%;
+  position: absolute;
+  right: 3em;
+}
+.nmrimg{
+  border: 3px solid black;
+  position: absolute;
+  right: 100px;
 }
 
 /* STYLE NAV BAR */
